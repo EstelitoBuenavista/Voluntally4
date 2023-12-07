@@ -1,0 +1,72 @@
+.StudentsView__heading {
+  margin-bottom: 24px;
+  font-size: clamp(2rem, 3lvw, 3rem);
+}
+
+.StudentsView__menu {
+  display: flex;
+  gap: 8px;
+}
+
+.StudentsView__menu button svg {
+  width: 24px;
+}
+
+.StudentsView__menu > .ButtonAdd {
+  margin-right: auto;
+}
+
+.Activity_Titles{
+  float: left;
+  text-align: left;
+  justify-content: left;
+  display: flex;
+
+  margin: 0px 10px 0px 10px;
+  width: 100%;
+}
+
+.Activity_Titles .Activity_Titles_EventTitle{
+  margin: 0px 20px 10px 0px;
+  align-self: flex-end;
+
+  color: green;
+  font-size: 400%;
+}
+
+.Activity_Titles .Activity_Points{
+  align-self: flex-end;
+  margin: 0px 20px 10px 0px;
+
+  color: #FBBF16;
+  font-size: 300%;
+}
+
+.Activity_Info{
+  display: flex;
+  margin: 5px;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.Activity_Info .Details{
+  text-align: left;
+  justify-content: left;
+  text-decoration: underline;
+  display: flex;
+  margin: 10px;
+}
+
+.actcompleted{
+
+  background-color: #007638;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  justify-content: right;
+  align-items: center;
+  margin: auto;
+}

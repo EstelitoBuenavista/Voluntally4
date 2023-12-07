@@ -1,0 +1,98 @@
+.Title{
+    float: left;
+    text-align: left;
+    justify-content: left;
+    display: flex;
+
+    margin: 10px;
+    padding: 32px 32px 10px 32px;
+    width: 100%;
+}
+
+.Title .EventTitle{
+    margin: 0px 20px 10px 0px;
+    align-self: flex-end;
+
+    color: green;
+    font-size: 400%;
+}
+
+.Title .Points{
+    align-self: flex-end;
+    margin: 0px 20px 10px 0px;
+
+    color: #FBBF16;
+    font-size: 300%;
+}
+
+.Heading .Event_Info{
+    text-align: left;
+    justify-content: left;
+    text-decoration: underline;
+
+    margin: 10px;
+    padding: 32px 32px 10px 32px;
+    width: 100%;
+}
+
+.About{
+
+    width: 100%;
+    height: 25%;
+}
+
+.About .AboutTitle{
+    text-align: left;
+    justify-content: left;
+
+    margin: 0px 20px 10px 25px;
+    padding: 10px;
+}
+
+.About .Desc{
+    text-align: left;
+    justify-content: left;
+
+    margin: 0px 20px 10px 25px;
+    padding: 10px;
+}
+
+
+.About .button{
+    margin: 10px 100px 10px 0px;
+    margin-left: 50%;
+    margin-right: 110%;
+
+    text-align: center;
+    justify-content: center;
+
+    
+}
+
+.About .Register {
+    background-color: #007638;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+
+.EventCard {
+    position: relative;
+    background-color: var(--white);
+    padding: max(16px, 3lvw);
+    padding-left: calc(max(16px, 3lvw) + 12px); /* + color boder width */
+    border-radius: 8px;
+    box-shadow: var(--outline);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: all 100ms ease-in;
+    cursor: pointer;
+  }
